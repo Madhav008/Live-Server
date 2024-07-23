@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  backend:
+    build: .
+    volumes:
+      - ./app:/app
+    ports:
+      - "8082:8082"
+
